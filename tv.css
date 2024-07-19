@@ -1,0 +1,383 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+body {
+    background-color: rgba(219, 215, 215, 0.459);
+}
+.upper {
+    background-color: rgb(48, 44, 44);
+    line-height: 1.2cm;
+    color: white;
+}
+.logo {
+    width: 16px;
+    
+}
+.logo img {
+    width: 100%;
+}
+.toptexts {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: xx-small;
+    height: 39px;
+    font-weight: lighter;
+}
+.lownav {
+    display: flex;
+    width: 70px;
+    gap: 100%;
+    padding-left: 32%;
+    height:40px;
+}
+.lowtext {
+    display: flex;
+    width: 102%;
+    justify-content: center;
+    font-size: xx-small;
+    gap: 3%;
+}
+.browntext {
+    display: flex;
+    justify-content: center;
+    padding-left: 16%;
+    font-size: xx-small;
+    color: rgb(200,119,72);
+}
+.first_ctn {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0% auto;
+    padding-top: 1%;
+}
+.appletv {
+    background-image: url(tvimages/hero_tv.png);
+    height: 200px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.futurepod {
+    background-image: url(tvimages/hero_homepod_appletv_lockup.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+.appletv_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.h_five {
+    font-weight: lighter;
+}
+.h_six {
+    font-weight: lighter;
+}
+.second_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 4%;
+    gap: 10%;
+    padding-bottom: 5%;
+}
+.homepodmini_bg {
+    background-image: url(tvimages/room_filling_sound.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 30%;
+    background-color: white;
+    border-radius: 3%;
+}
+.homepodmini_bgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tvfourk_bg {
+    background-image: url(tvimages/higher_definition.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 35%;
+    background-color: white;
+    border-radius: 3%;
+}
+.tvfourk_bgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tvfourk_bgtext img {
+    width: 15% ;
+}
+.home_bg {
+    background-image: url(tvimages/your_home_at_your_command.jpg);
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 60%;
+    background-color: white;
+    border-radius: 3%;
+}
+.home_bgtext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 70%;
+    margin: 8% auto;
+}
+.home_bgtext img {
+    width: 17%;
+}
+.bluetext_two {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: rgb(0,102,204);
+    font-size: x-small;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 6% auto;
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+.bluetext_one {
+    color: rgb(0,102,204);
+    font-size: x-small;
+}
+.h_ten {
+    display: flex;
+    justify-content: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 20px auto;
+}
+.easilybg {
+    background-image: url(tvimages/control_your_home.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.seamlessbg {
+    background-image: url(tvimages/seemlessly_connected.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.heySiribg {
+    background-image: url(tvimages/Apple-Siri---HomePod.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.third_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 40px auto;
+    justify-content: space-around;
+    text-align: center;
+}
+.h_class {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+.p_one {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%;
+    align-items: center;
+    text-align: center;
+}
+.Lighteningbg {
+    background-image: url(tvimages/lighting.jpg);
+    height: 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.securitybg {
+    background-image: url(tvimages/security.jpg);
+    height: 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.comfortbg {
+    background-image: url(tvimages/comfort.jpg);
+    height: 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 3%;
+}
+.fourth_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 40px auto;
+    justify-content: space-around;
+    text-align: center;
+}
+.undert {
+    padding-top: 90%;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: xx-small
+}
+.p_zero {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.p_zerone {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: xx-small;
+}
+.see {
+    padding-left: 21%;
+    margin: 30px auto;
+}
+.tv img {
+    width: 8%;
+    /* padding-left: 70px; */
+}
+.music img {
+    width: 55%;
+}
+.fitness img {
+    width: 57%;
+}
+.arcade img {
+    width: 55%;
+}
+.Apples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    padding-bottom: 50px;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 6% auto;
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+.delivery_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    /* font-size: x-small; */
+    margin: 40px auto;
+}   
+.delivery_text {
+    text-align: center;
+    width: 20%;
+
+}
+.delivery_text img {
+    width: 10%;
+}
+.delivery_text :nth-child(2) {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin: 2px auto;
+}
+.delivery_text :nth-child(3) {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: x-small;
+    text-align: center;
+    margin: 5px auto;
+}
+.delivery_text :nth-child(4) {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: x-small;
+    color: rgb(0, 102, 204);
+
+}
+hr {
+    width: 70%;
+    margin: 20px auto;
+}
+.nevertext {
+    padding-top:0.2%;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: x-small;
+    font-weight: lighter;
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 2%;
+    font-size: x-small;
+}
+.sl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.b_one {
+    font-size: x-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+
+}
+
+
+
+
+
+
+
+
+
+
+

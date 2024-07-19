@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: rgb(48, 44, 44);
+    line-height: 1.2cm;
+    color: white;
+}
+.logo {
+    width: 16px;
+    
+}
+.logo img {
+    width: 100%;
+}
+.toptexts {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    height:30px;
+
+}
+img {
+    width: 1%;
+}
+.firstimage {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color:rgb(242,242,242) ;
+}
+
+.firstbg {
+    background-image: url(imagesassesories/airpods-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+    width: 60%;
+}
+.text_one ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left:47%;
+    padding-top: 20%;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    gap: 10px;
+}
+.text > :nth-child(1){
+    color: rgb(200,119,72);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+.text > :nth-child(3) {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+} 
+.text > :nth-child(3) {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+} 
+
+.secondrow {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin:50px auto;
+    gap: 15px;
+}
+h4 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 550;
+}
+.firstinput {
+    font-size: x-small;
+   height: 25px;/
+}
+hr {
+    width: 70%;
+    margin: 30px auto;
+}
+.secondtext {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: x-small;
+}
+.smallicons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 70px;
+}
+.smallicons img {
+    width: 40px;
+}
+.smallicons p {
+    font-size: xx-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.p_one {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(0,102,204);
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 550;
+}
+.forthrow {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 10px auto;   
+}
+.iPhone_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin: 20px auto;
+    gap: 7px;
+
+}
+
+.compareiPadimgs img {
+    width: 13%;
+}
+.thirteenpro {
+    background-image: url(imagesassesories/featured_2.png);
+    height: 400px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 33%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.thirteenpro_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100%;
+    
+}
+.thirteen {
+    background-image: url(imagesassesories/featured_1.png);
+    height: 300px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.thirteen_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 51%;
+    
+}
+.freeengrave {
+    background-image: url(imagesassesories/featured_3.png);
+    height: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.freeengrave_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120%;
+    
+}
+.solo {
+    background-image: url(imagesassesories/featured_4.png);
+    height: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.solo_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120%;
+    
+}
+.smartfolio {
+    background-image: url(imagesassesories/featured_5.png);
+    height: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.smartfolio_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120%;  
+}
+.smallbrown {
+    font-size: x-small;
+    color: rgb(200,119,72);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.smallbold {
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.Valentine {
+    background-image: url(imagesassesories/apple-valentines-day-accessories.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: right;
+    width: 99%;
+    background-color:rgb(249,241,248) ;
+    
+}
+.Val_text {
+    padding-top: 10%;
+    padding-left: 15%;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.AirPodnew {
+    background-image: url(imagesassesories/featured_6.png);
+    background-position: top;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.AirPods_pro {
+    background-image: url(imagesassesories/featured_7.png);
+    background-position: top;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.AirPods_max {
+    background-image: url(imagesassesories/airpods-max-select-pink.png);
+    background-position: top;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-color:rgb(242,242,242) ;
+    border-radius: 4%;
+}
+.Airpod_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px auto;
+    gap: 30px;
+}
+.Airpod_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 110%;
+}
+.p_three {
+    color: rgb(0,102,204);
+}
+.h_two {
+    color: rgb(137,56,129);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.last_row {
+    background-image: url(imagesassesories/homepod-mini-accessories.jpg);
+    background-size: contain;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+}
+.last_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.last_ctn {
+    width: 99%;
+    margin: 30px auto;
+    padding-top: 2%;
+    background-color:rgb(242,242,242) ;
+}
+.h_twoB {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.h_six {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+.under_text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 70%;
+    margin: 0px auto;
+    
+}
+.delivery {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap:5px;
+    align-items: center;
+}
+.delivery img {
+    width: 50px;
+}
+.return {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 5px;
+    align-items: center;
+}
+.return img {
+    width: 50px;
+}
+.acmi {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 5px;
+    align-items: center;
+}
+.acmi img {
+    width: 50px;
+}
+h5 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-weight: bold;
+}
+p {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: x-small;
+}
+.p_two {
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(0,102,204);
+}
+
+.nevertext {
+    padding-top: 2%;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: x-small;
+    font-weight: lighter;
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 2%;
+    
+}
+.sl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.b_one {
+    font-size: x-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+
+}

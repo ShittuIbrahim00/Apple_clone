@@ -27,6 +27,10 @@ body {
     height: 39px;
     font-weight: lighter;
 }
+.toptexts a {
+    color: white;
+    text-decoration: none;
+}
 .lownav {
     display: flex;
     width: 70px;
